@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Landing Page Design </title>
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+                font-family: sans-serif;
+            }
+            .header{
+                background-color: black;
+                color: white;
+                padding-top: 2px;
+                font-size: 20px;
+            }
+            ul{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                background-color: grey;
+                overflow: hidden;
+            }
+            li{
+                float: left;
+            }
+            .navlink{
+                display: block;
+                padding: 5px 16px;
+                color: white;
+                background-color:gray;
+                border-right: 1px solid black;
+                text-decoration: none;
+            }
+           
+            .leftcolumn{
+                float: left;
+                width: 70%;
+            }
+            .rightcolumn{
+                float: left;
+                width: 30%;
+                height: 750px;
+                background-color: rgb(216, 189, 189);
+            }
+            .row:after{
+                content: "";
+                display: table;
+                clear: both;
+            }
+            img{
+                float: left;
+                height: 150px ;
+                widows: 250px; 
+              
+            }
+            .clearfix{
+                width: 95%;
+                margin: auto;
+              
+            }
+
+            .clearfix::after{
+                content: "";
+                clear: both;
+                display: table;
+               
+            }
+            .sidelink{
+                text-decoration: none;
+                display: block;
+                color: rgba(177, 89, 7, 0.979);
+                padding-bottom: 12px;
+                margin-left: 10px;
+
+                }
+
+            .footer{
+              background-color: black;
+                text-align: center;
+                padding: 5px;
+                color: white;
+            }
+            span{
+                color: yellow;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1 style="font-family: sans-serif;
+             margin-left: 10px;" >HTML<span style="font-size: 60px;">5</span></h1>
+            <div class="topnav">
+                <ul >
+                    <li><a class="navlink" href="#link1">Link 1</a></li>
+                    <li><a class="navlink" href="#link2">Link 2</a></li>
+                    <li><a class="navlink" href="#link3">Link 3</a></li>
+                    <li><a class="navlink" href="#link4">Link 4</a></li>
+                    <li><a class="navlink" href="#link5">Link 5</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+        <div class="leftcolumn" >
+        <div class="clearfix">
+            <img  style="width: 150px; height: 160px;" src="https://www.w3schools.com/css/paris.jpg">
+           <div style="margin-left: 180px; margin-top: 30px;">
+            <h2>This is lorem Ipsum Heading</h2>
+            <p>A paragraph is a series of related sentences 
+                developing a central idea, called the topic.
+                 Try to think about paragraphs in terms of 
+                 thematic unity: a paragraph is a sentence 
+                 or a group of sentences that supports one 
+                 central, unified idea.
+                 <br><br><br>
+                 <a style="text-decoration: none;
+                 color: rgb(180, 180, 20);" href="#">Read more</a>
+            </p>
+            <br>
+        </div>
+            <hr>
+        </div>
+        <div class="clearfix">
+           
+            <img style="width: 150px; height: 160px;" src="https://www.w3schools.com/w3images/london.jpg">
+            <div style="margin-left: 180px; margin-top: 30px;">
+            <h2>This is lorem Ipsum Heading</h2>
+            <p>A paragraph is a series of related sentences 
+                developing a central idea, called the topic.
+                 Try to think about paragraphs in terms of 
+                 thematic unity: a paragraph is a sentence 
+                 or a group of sentences that supports one 
+                 central, unified idea. 
+                 <br><br><br>
+                 <a style="text-decoration: none;
+                 color: rgb(180, 180, 20);" href="#">Read more</a>
+            </p><br>
+            </div>
+            <hr>
+        </div>
+        <div class="clearfix">
+            <img style="width: 150px; height: 160px;" src="https://www.w3schools.com/w3images/cinqueterre.jpg">
+           <div style="margin-left: 180px; margin-top: 30px;">
+            <h2>This is lorem Ipsum Heading</h2>
+            <p>A paragraph is a series of related sentences 
+                developing a central idea, called the topic.
+                 Try to think about paragraphs in terms of 
+                 thematic unity: a paragraph is a sentence 
+                 or a group of sentences that supports one 
+                 central, unified idea. 
+                 <br><br><br>
+                 <a style="text-decoration: none;
+                 color: rgb(180, 180, 20);" href="#">Read more</a>
+            </p>
+            <br>
+        </div>
+        <hr>
+        </div>
+    </div>
+    <div class="rightcolumn">
+        <div style="margin: auto; width: 90%">
+        <h3> Sidebar Links</h3>
+        <hr>
+            <a class="sidelink" href="#">Link 1</a>
+            <a class="sidelink" href="#">Link 2</a>
+            <a class="sidelink" href="#">Link 3</a>
+            <a class="sidelink" href="#">Link 4</a>
+      
+        <h3>Other Widgets</h3>
+        <hr>
+        <p>This stunning picture book biography tells the 
+            inspiring true story of garment worker organizer 
+            Clara Lemlich. When Clara arrived in America, she 
+            couldn't speak English.</p>
+            <p>
+                Paragraphs add one idea at a time to your broader
+                argument.
+            </p>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <p><b>Copyright <span>Gogoaka</span> All rights Reserved.</b></p>
+</div>
+    </body>
+</html>
